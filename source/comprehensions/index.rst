@@ -22,3 +22,9 @@ Generator Expression
 .. _() generator expression: gen_expression.html
 
 
+Remaining Comprehensions
+========================
+.. toctree::
+   :glob:
+
+   *

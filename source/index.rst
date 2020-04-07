@@ -5,17 +5,18 @@ Python Reference (The Right Way) - DRAFT
 Contents
 ========
 .. toctree::
-   :maxdepth: 2
+   :glob:
+   :maxdepth: 1
 
    intro
    definitions
    guidelines
    basic_data_types
-   docs/functions/index
-   docs/comprehensions/index
-   docs/brackets/index
-   docs/operators/index
-   docs/statements/index
+   functions/index
+   comprehensions/index
+   brackets/index
+   operators/index
+   statements/index
    other_types
    dunders
    exceptions
@@ -24,7 +25,27 @@ Contents
    psl
    resources
    licence
+
+.. Upon further inspection I'm getting more and more confused by his organization.
+
+   However I really liked the layout.
+   We have to add a toctree because sphinx is emitting over 1000 errors.
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :Caption: Additional
+
+   fcomms/*
+   file/*
+   float/*
+   function/*
+   generator/*
+   ints/*
+   str/*
+   sets/*
    
+
 Indices and tables
 ==================
 
